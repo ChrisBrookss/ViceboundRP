@@ -25,7 +25,7 @@ local CinematicHeight = 0.2
 local w = 0
 local hasWeapon = false
 
-DisplayRadar(false)
+DisplayRadar(true)
 
 local function cinematicShow(bool)
     SetBigmapActive(true, false)
